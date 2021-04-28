@@ -14,8 +14,8 @@ import time
 # -----------------------------------------------------------Email Retrieving Global Variables----------------------------------------------------------------
 
 # account credentials
-username = "cmb.mercury@gmail.com"
-password = "H0lland10!"
+username = "admin@cmbsoftwareengineer.awsapps.com"
+password = "Password"
 
 
 
@@ -122,7 +122,7 @@ def send_message(title, message):
 def retrieving_email():
    
    #connecting to the email server
-    M = imaplib.IMAP4_SSL('imap.gmail.com')
+    M = imaplib.IMAP4_SSL('imap.mail.eu-west-1.awsapps.com')
    
    #Login into the email and seleting the inbox folder
     M.login(username, password)
